@@ -1,237 +1,237 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: black;
-    align-items: center;
-    text-align: center;
+body {
+  background-color: black;
+  align-items: center;
+  text-align: center;
 }
-.login-page{
-    background-color: rgb(216, 212, 243);
-    width: 170vh;
-    max-width: 200vh;
-    height: 90vh;
-    border-radius: 20px;
-    display: flex;
-    margin: 50px auto 10px;
-
-}
-.arts{
-    display: flex;
-    margin-top: 200px;
-    margin-left: 130px;
+.login-page {
+  background: linear-gradient(135deg, #fff, rgba(0, 43, 153, 0.418));
+  width: 170vh;
+  max-width: 200vh;
+  height: 90vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12rem;
+  margin: 50px auto 10px;
 }
 
-.arts .art-1{
-    background-color: rgb(80, 80, 219);
-    width:150px;
-    height: 20vw;
-}
-.arts .art-1 .faces{
-    display: flex;
-    column-gap: 15px;
-    margin: 20px 25px 50px 60px;
-    position: relative;
-    justify-content: space-between;
-}
-.arts .art-1 .eye-1{
-    background-color: white;
-    border-radius:50% ;
-    width: 10px;
-    height: 10px;
-}
-.arts .art-1 .nose{
-    background-color: black;
-    width: 7px;
-    height: 30px;
+.arts {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 180px;
 }
 
-.arts .art-1 .eye-2{
-    background-color: white;
-    border-radius:50% ;
-    width: 10px;
-    height: 10px;
-    
+.arts .art-1 {
+  background-color: rgb(80, 80, 219);
+  width: 150px;
+  height: 20vw;
 }
-.eye-ball{
-    background-color: black;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    margin-top: 2px;
-    margin-left: 4px;
+.arts .art-1 .faces {
+  display: flex;
+  column-gap: 15px;
+  margin: 20px 25px 50px 60px;
+  position: relative;
+  justify-content: space-between;
 }
-.black{
-     background-color: black;
-     height: 15vw;
-     width: 7vw;
-     margin-top: 65px;
-     position: absolute;
-     z-index:1;
-     margin-left: 100px;
+.arts .art-1 .eye-1 {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
-
-.black .black-eye{
-    display: flex;
-    column-gap: 10px;
-    margin: 20px 25px 50px 60px;
-    position: relative;
-    justify-content: space-between;
-}
-.eye-black-1{
-    background-color: white;
-    border-radius:50% ;
-    width: 10px;
-    height: 10px;
-}
-.eye-black-2{
-    background-color: white;
-    border-radius:50% ;
-    width: 10px;
-    height: 10px;
+.arts .art-1 .nose {
+  background-color: black;
+  width: 7px;
+  height: 30px;
 }
 
-.orange{
-    background-color:rgb(212, 132, 34);
-    height: 100px;
-    width: 200px;
-    margin-top: 160px;
-    border-top-right-radius:110px;
-    border-top-left-radius:110px;
-    position: absolute;
-    z-index:1;
-    left:230px;
+.arts .art-1 .eye-2 {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
-.orange-eye{
-    display: flex;
-    column-gap:1em;
-    margin-top: 40px;
-    margin-left: 90px;
+.eye-ball {
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 2px;
+  margin-left: 4px;
 }
-.eye-orange-1{
-    background-color: black;
-    width:10px;
-    height: 10px;
-    border-radius: 50%;
+.black {
+  background-color: black;
+  height: 15vw;
+  width: 7vw;
+  margin-top: 78px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 100px;
+}
 
+.black .black-eye {
+  display: flex;
+  column-gap: 10px;
+  margin: 20px 25px 50px 60px;
+  position: relative;
+  justify-content: space-between;
 }
-.orange-mouth{
-    background-color: black;
-    width:20px;
-    height: 10px;
-    margin-top: 10px;
-    border-bottom-right-radius: 150px;
-    border-bottom-left-radius: 150px;
+.eye-black-1 {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
-.eye-orange-2{
-    background-color: black;
-    width:10px;
-    height: 10px;
-    border-radius: 50%;
- 
+.eye-black-2 {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
-.yellow{
-    background-color: yellow;
-     height: 10vw;
-     width: 7vw;
-     margin-top: 130px;
-     position: absolute;
-     z-index:1;
-     margin-left: 170px;
-     border-top-right-radius: 50px;
-     border-top-left-radius: 50px;
+
+.orange {
+  background-color: rgb(212, 132, 34);
+  height: 100px;
+  width: 200px;
+  margin-top: 210px;
+  border-top-right-radius: 110px;
+  border-top-left-radius: 110px;
+  position: absolute;
+  z-index: 1;
+  left: 230px;
 }
-.yellow-face{
-   margin-top: 30px;
-   margin-left: 30px;
+.orange-eye {
+  display: flex;
+  column-gap: 1em;
+  margin-top: 40px;
+  margin-left: 90px;
 }
-.yellow-eye{
-    background-color: black;
-    width:10px;
-    height: 10px;
-    border-radius: 50%;
+.eye-orange-1 {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
-.yellow-mouth{
-    background-color: black;
-    width: 60px;
-    height: 5px;
-    margin-top: 10px;
-    margin-left: 15px;
+.orange-mouth {
+  background-color: black;
+  width: 20px;
+  height: 10px;
+  margin-top: 10px;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
 }
-.login-inputs{
-    background: white;
-    width: 80vh;
-    height: 88vh;
-    border-radius: 40px;
-    margin-left: 230px;
-    margin-top: 8px;
-    overflow: hidden;
+.eye-orange-2 {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
-.login-inputs h1{
-   font-size: 10px;
-   line-height: 3rem;
-   margin-top: 30px;
+.yellow {
+  background-color: yellow;
+  height: 10vw;
+  width: 7vw;
+  margin-top: 160px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 170px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 }
-.login-inputs h2{
-    font-size: 30px;
-    margin-top: 10px;
-}  
-label{
-    display: flex;
-    margin-left: 60px;
-    margin-top: 30px;
-    padding: 5px;
-    width: 350px;
-    border-bottom:2px black solid;
+.yellow-face {
+  margin-top: 30px;
+  margin-left: 30px;
 }
-  input{
-    border: hidden;
-  }
-.ri-eye-line{
-    margin-left: 160px;
+.yellow-eye {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
-.login-inputs .part{
-    display: flex;
-    column-gap:5rem;
-    margin-top: 15px;
-    margin-left:60px;
+.yellow-mouth {
+  background-color: black;
+  width: 80px;
+  height: 5px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
-.btn-cls{
-    margin-top: 40px;
-    display: grid;
-    row-gap: 20px;
+.login-inputs {
+  background: rgba(255, 255, 255, 0.627);
+  width: 70vh;
+  height: 88vh;
+  border-radius: 40px;
+  margin-left: 180px;
+  margin-top: 8px;
 }
-.btn-cls .login{
-    background-color: black;
-    color:white;
-    width:350px;
-    padding:10px;
-    margin-left: 60px;
-    border-radius: 50px;
+.login-inputs h1 {
+  font-size: 10px;
+  line-height: 3rem;
+  margin-top: 30px;
 }
-.btn-cls .login:hover{
-    background-color: azure;
-    color: black;
+.login-inputs h2 {
+  font-size: 30px;
+  margin-top: 10px;
 }
-.btn-cls .google-lg{
-    background-color: white;
-    color:black;
-    width:350px;
-    padding:10px;
-    margin-left: 60px;
-    border-radius: 50px;
+label {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding: 5px;
+  width: 350px;
+  border-bottom: 2px black solid;
 }
-.btn-cls .google-lg:hover{
-    background-color: black;
-    color:white;
+input {
+  border: 0;
+  outline: 0;
+  background: none;
 }
-.last-part{
-    margin-top: 50px;
-    text-decoration: none;
-} 
-.last-part a{
-    text-decoration: none;
-    font: bold;
+.ri-eye-line {
+  margin-left: 160px;
+}
+.login-inputs .part {
+  display: flex;
+  column-gap: 5rem;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.btn-cls {
+  margin-top: 40px;
+  display: grid;
+  row-gap: 20px;
+}
+.btn-cls .login {
+  background-color: black;
+  color: white;
+  width: 350px;
+  padding: 10px;
+  margin-left: 60px;
+  border-radius: 50px;
+}
+.btn-cls .login:hover {
+  background-color: azure;
+  color: black;
+}
+.btn-cls .google-lg {
+  background-color: white;
+  color: black;
+  width: 350px;
+  padding: 10px;
+  margin-left: 60px;
+  border-radius: 50px;
+}
+.btn-cls .google-lg:hover {
+  background-color: black;
+  color: white;
+}
+.last-part {
+  margin-top: 50px;
+  text-decoration: none;
+}
+.last-part a {
+  text-decoration: none;
+  font: bold;
 }
